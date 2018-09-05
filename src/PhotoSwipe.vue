@@ -102,6 +102,8 @@
 
                 this.photoswipe = new PhotoSwipe(this.$el, PhotoSwipeDefaultUI, items, opts)
                 this.photoswipe.init()
+              console.log('asd !!!')
+                return this.photoswipe
             },
 
             close () {
